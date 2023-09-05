@@ -1,0 +1,18 @@
+[package]
+name = "github-semantic-issues"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+octocrab = "0.30.1"
+serde = "1"
+serde_derive = "1.0.184"
+toml = "0.7.6"
+secrecy = "0.8"
+tokio={version="1.32",features=["rt","macros", "rt-multi-thread"]}
+futures="0.3"
+
+[patch.crates-io]
+octocrab = {git = "https://github.com/chorman0773/octocrab"}
