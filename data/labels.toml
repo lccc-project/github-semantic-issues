@@ -64,7 +64,7 @@ colour = "800000"
 
 [groups.target]
 pattern="O-{}"
-labels=["x86","arm", "risv", "w65", "x86-16", "x86-32", "x86-64","windows","darwin","linux","elf","macho","pe","coff"]
+labels=["x86","arm", "risv", "w65", "x86-16", "x86-32", "x86-64","holeybytes","windows","darwin","linux","ableos","lilium","elf","macho","pe","coff"]
 colour="3b2b70"
 
 [groups.language]
