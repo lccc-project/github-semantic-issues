@@ -44,7 +44,8 @@ description = "An issue related to lcld"
 pattern = "C-{}"
 repeatable = false
 colour = "86949c"
-labels = ["bug", "feature-request", "tracking-issue", "feature-accepted","cleanup","discussion","enhancement","open-question"]
+labels = ["bug", "feature-request", "tracking-issue", "feature-accepted","cleanup","discussion","enhancement","open-question", "gub"]
+description = "Category: {stem}"
 
 [groups.features]
 pattern = "F-{}"
@@ -71,6 +72,7 @@ colour="3b2b70"
 pattern="L-{}"
 labels = ["rust","c++", "c"]
 colour="3a992f"
+description="Language: {stem}"
 repos=["lccc"]
 
 [groups.status]
